@@ -222,9 +222,28 @@ node_modules/
 ehthumbs.db
 Thumbs.db
 
-# Application specific
+# Application specific - Security Critical
+appsettings.json
 appsettings.Development.json
 appsettings.Production.json
+appsettings.Local.json
 *.pfx
 *.p12
 wwwroot/
+
+# API Keys and Secrets
+*.key
+*.pem
+secrets.json
+.secrets/
+
+# AWS Credentials
+.aws/
+aws-credentials.json
+
+# Email configurations
+email-config.json
+
+# Third-party API keys
+*-api-key.json
+*-credentials.json
